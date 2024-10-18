@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature - Unicaen</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="bck">
+                
+            </div>
+
+            <div class="content">
+                <div class="element">
+
+                    <div class="img-content">
+                        <div class="content">
+
+                            <img src="" alt="signature-electronique" class="img-bck">
+                            <div class="text">
+
+                                <p id="nom"></p>
+                                <p id="branche"></p>
+                                <p id="annee"></p>
+                                <p id="email"></p>
+                                <p id="tel"></p>
+                                <p id="site"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modifier">
+                        <div class="input full-size">
+                            <input oninput="imgChange(this)" type="text" name="Image" id="image" placeholder="Lien vers l'image de fond">
+                        </div>
+                        <div class="input">
+                            <input oninput="onInputChange(this)" type="text" name="nom" id="nom" placeholder="Nom et Prenom">
+                            <input oninput="onColorChange(this)" type="color" name="color" id="nom" placeholder="Couleur">
+                        </div>
+                        <div class="input">
+                            <input oninput="onInputChange(this)" type="text" name="branche" id="branche" placeholder="Etude">
+                            <input oninput="onColorChange(this)" type="color" name="color" id="branche" placeholder="Couleur">
+                        </div>
+                        <div class="input">
+                            <input oninput="onInputChange(this)" type="text" name="annee" id="annee" placeholder="Année / TD / TP">
+                            <input oninput="onColorChange(this)" type="color" name="color" id="annee" placeholder="Couleur">
+                        </div> 
+                        <div class="input">
+                            <input oninput="onInputChange(this)" type="text" name="email" id="email" placeholder="Email">
+                            <input oninput="onColorChange(this)" type="color" name="color" id="email" placeholder="Couleur">
+                        </div>
+                        <div class="input">
+                            <input oninput="onInputChange(this)" type="text" name="tel" id="tel" placeholder="Téléphone">
+                            <input oninput="onColorChange(this)" type="color" name="color" id="tel" placeholder="Couleur">
+                        </div>
+                        <div class="input">
+                            <input oninput="onInputChange(this)" type="text" name="site" id="site" placeholder="Site web">
+                            <input oninput="onColorChange(this)" type="color" name="color" id="site" placeholder="Couleur">
+                        </div>
+                        
+    
+                    </div>
+                    <div class="button">
+                        <a href="#" id="generate">Générer</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-right">
+            <a href="https://infuseting.fr/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
